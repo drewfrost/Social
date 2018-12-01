@@ -3,8 +3,6 @@
 
 {% block group_content  %}
 <div class="container">
-
-
   <h4>Create a new group</h4>
   <form action="{% url 'groups:create' %}" method="POST" id='groupForm'>
     {% csrf_token %}
